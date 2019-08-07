@@ -26,8 +26,8 @@
                     <input id="username" type="text" name="username">
                 </div>
                 <div class="form-item">
-                    <label for="email">email: </label>
-                    <input type="email" name="email" id="email" required>
+                    <label for="password">Password: </label>
+                    <input type="password" name="password" id="password" required>
                 </div>
                 <div class="form-example">
                     <input type="submit" value="Login">

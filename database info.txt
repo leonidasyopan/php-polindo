@@ -1,0 +1,5 @@
+Database: php-polindo
+
+username: php-polindo-admin
+host: php-polindo
+password: eiQdtoC2r7xeccJs
