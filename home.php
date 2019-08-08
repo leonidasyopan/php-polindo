@@ -38,7 +38,7 @@
                 </div>
                 <div class="form-item">
                     <label for="public">public post? </label>
-                    <input type="checkbox" name="public" id="public" value="yes">
+                    <input type="checkbox" name="public[]" id="public" value="yes">
                 </div>
                 <div class="form-example">
                     <input type="submit" value="Add to list">
