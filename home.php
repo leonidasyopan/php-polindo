@@ -51,9 +51,36 @@
             <tr>
                 <th>Id</th>
                 <th>Details</th>
+                <th>Post Time</th>
+                <th>Edit Time</th>
                 <th>Edit</th>
                 <th>Delete</th>
+                <th>Public Post</th>
             </tr>
+            <?php
+                // Create Connection
+                $con = mysqli_connect("localhost","polindo","LIktRn4dpIvkfygY","php-polindo");
+
+                // Check connection
+                if (mysqli_connect_errno()) {
+                echo "Failed to connect to MySQL: " . mysqli_connect_error();
+                }
+
+                $query = mysqli_query($con, "SELECT * FROM list"); // SQL Query
+
+                while($row = mysqli_fetch_array($query))
+                {
+                    Print "<tr>";
+                        Print '<td align="center">' . $row['id'] . '</td>';
+                        Print '<td align="center">' . $row['details'] . '</td>';
+                        Print '<td align="center">' . $row['date_posted'] . ' - ' . $row['time_posted'] . '</td>';
+                        Print '<td align="center">' . $row['date_edited'] . ' - ' . $row['time_edited'] . '</td>';
+                        Print '<td align="center"><a href="edit.php">edit</a></td>';
+                        Print '<td align="center"><a href="delete.php">delete</a></td>';
+                        Print '<td align="center">' . $row['public'] . '</td>';
+                    Print "</tr>";
+                }
+            ?>
         </table>
 
     </main>
