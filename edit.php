@@ -141,6 +141,9 @@
         }
         mysqli_query($con, "UPDATE list SET details='$details', public='$public', date_edited='$date_edited', time_edited='$time_edited' WHERE id='$id'");
 
-        header("location: home.php");
+        // header("location: home.php");   ****Original Redirect*****
+
+        Print '<script>alert("Item Successfully Updated!");</script>'; // Prompts the user
+        Print '<script>window.location.assign("home.php");</script>'; // redirects to home.php
     }
 ?>
