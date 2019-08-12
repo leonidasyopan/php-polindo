@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Homepage | Polishing my PHP</title>
+
+    <!-- This is the main stylesheet for the whole website -->
+    <link rel="stylesheet" href="css/styles.css" type="text/css">
 </head>
 <body>
     <header>

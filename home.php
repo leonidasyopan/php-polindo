@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Painel de Controle | Polishing my PHP</title>
+
+    <!-- This is the main stylesheet for the whole website -->
+    <link rel="stylesheet" href="css/styles.css" type="text/css">
 </head>
 <?php
     session_start(); // starts the session
@@ -82,18 +85,12 @@
                 }
             ?>
         </table>
-        <script>
-            function confirmDeletion(id)
-            {
-                var confirmPrompt = confirm("Are you sure you want to delete this record?");
-                if ( confirmPrompt == true )
-                {
-                    window.location.assign("delete.php?id=" + id);
-                }
-            }
-        </script>
+        
     </main>
     <footer>
     </footer>    
+
+    <!-- JavaScript application for confirming whether to delete item or not -->
+    <script src="js/confirm-deletion.js"></script>
 </body>
 </html>
