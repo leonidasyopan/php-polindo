@@ -17,14 +17,39 @@
         </header>
         <aside class="sidenav">
             <nav>
-                <ul>
-                    <li><a href="index.php">Home</a></li>
-                    <li><a href="login.php">Login</a></li>
-                    <li><a href="register.php">Register</a></li>
+                <ul class="sidenav__list">
+                    <li class="sidenav__list-item"><a href="index.php">Home</a></li>
+                    <li class="sidenav__list-item"><a href="login.php">Login</a></li>
+                    <li class="sidenav__list-item"><a href="register.php">Register</a></li>
                 </ul>
             </nav>
         </aside>
         <main class="main">
+
+            <div class="main-header">
+                <div class="main-header__heading">Hello User</div>
+                <div class="main-header__updates">Recent Items</div>
+            </div>
+
+            <div class="main-overview">
+            <div class="overviewcard">
+                <div class="overviewcard__icon">Overview</div>
+                <div class="overviewcard__info">Card</div>
+            </div>
+            <div class="overviewcard">
+                <div class="overviewcard__icon">Overview</div>
+                <div class="overviewcard__info">Card</div>
+            </div>
+            <div class="overviewcard">
+                <div class="overviewcard__icon">Overview</div>
+                <div class="overviewcard__info">Card</div>
+            </div>
+            <div class="overviewcard">
+                <div class="overviewcard__icon">Overview</div>
+                <div class="overviewcard__info">Card</div>
+            </div>
+            </div>
+
             <h2>Lists</h2>
             <table width="100%" border="1px">
                 <tr>
