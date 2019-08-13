@@ -12,7 +12,8 @@
 <body>
     <div id="main-container">
         <header class="header">
-            
+            <div class="header__search">Search...</div>
+            <div class="header__avatar">Your face</div>            
         </header>
         <aside class="sidenav">
             <nav>
@@ -57,6 +58,8 @@
             </table>
         </main>
         <footer class="footer">
+            <div class="footer__copyright">&copy; 2018 MTH</div>
+            <div class="footer__signature">Made with love by pure genius</div>
         </footer>
     </div>    
 </body>
