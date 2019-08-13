@@ -19,28 +19,27 @@
 /* Give every child element its grid name */
 .header {
     grid-area: header;
-    background-color: #648ca6;
+    background-color: #4480C5;
 }
 
 .sidenav {
     grid-area: sidenav;
-    background-color: #394263;
+    background-color: rgba(46, 86, 139, 0.9);
 }
 
 .main {
     grid-area: main;
-    background-color: #8fd4d9;
+    background-color: #EBEFF3;
 }
 
 .footer {
     grid-area: footer;
-    background-color: #648ca6;
+    background-color: #4480C5;
 }
 
 .header, .footer {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 0 16px;
-    background-color: #648ca6;
+    padding: 0 16px;    
 }
